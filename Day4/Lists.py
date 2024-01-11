@@ -9,12 +9,17 @@ us_states = [
 ]
 
 # change values in a list by using the index position 
-us_states[2] ="AZ"
+# us_states[2] ="AZ"
 
 # append adds a value to the end of the list
-us_states.append("Mexico State")
+# us_states.append("Mexico State")
 
 # extends adds multiple values to the list 
-us_states.extend(["KY", "GA", "TN"])
+# us_states.extend(["KY", "GA", "TN"])
 
-print(us_states)
+# minus one for the last entry of a list because index is 0 
+state_amt = len(us_states) - 1
+
+print(state_amt)
+
+print(us_states[49])
